@@ -1,0 +1,742 @@
+﻿Log file open, 10/15/14 15:54:10
+LogInit:Display: Running engine for game: TigerWoods
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.15-19.54.10:051][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.15-19.54.10:099][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.15-19.54.10:126][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.15-19.54.10:137][  0]LogInit: Object subsystem initialized
+[2014.10.15-19.54.10:139][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.10.15-19.54.10:139][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/git/TigerWoods/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.15-19.54.10:139][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.10.15-19.54.10:139][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/git/TigerWoods/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.15-19.54.10:139][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.15-19.54.10:139][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.15-19.54.10:143][  0]LogInit: Computer: JON81
+[2014.10.15-19.54.10:143][  0]LogInit: User: jon
+[2014.10.15-19.54.10:144][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.15-19.54.10:144][  0]LogInit: High frequency timer resolution =3.515625 MHz
+[2014.10.15-19.54.10:144][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2014.10.15-19.54.10:144][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.15-19.54.10:144][  0]LogMemory: Process Physical Memory: 62.66 MB used, 62.79 MB peak
+[2014.10.15-19.54.10:144][  0]LogMemory: Process Virtual Memory: 38.25 MB used, 38.38 MB peak
+[2014.10.15-19.54.10:144][  0]LogMemory: Physical Memory: 3780.40 MB used, 16333.22 MB total
+[2014.10.15-19.54.10:144][  0]LogMemory: Virtual Memory: 278.36 MB used, 134217728.00 MB total
+[2014.10.15-19.54.10:163][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2014.10.15-19.54.10:163][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.10.15-19.54.10:163][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.15-19.54.10:163][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.15-19.54.10:163][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.15-19.54.10:166][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.15-19.54.10:174][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.15-19.54.10:219][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.10.15-19.54.10:317][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.15-19.54.13:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-19.54.14:611][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-19.54.14:644][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.15-19.54.14:674][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/jon/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.15-19.54.14:674][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jon/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.10.15-19.54.14:674][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../git/TigerWoods/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.15-19.54.14:674][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.15-19.54.14:719][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.15-19.54.14:731][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.10.15-19.54.14:843][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.15-19.54.14:843][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.15-19.54.15:018][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.15-19.54.15:020][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.15-19.54.15:138][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.15-19.54.15:682][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.15-19.54.15:844][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/git/TigerWoods/Binaries/Win64. Error: 0
+[2014.10.15-19.54.15:927][  0]SourceControl: Info Source control is disabled
+[2014.10.15-19.54.15:927][  0]SourceControl: Info Source control is disabled
+[2014.10.15-19.54.15:931][  0]SourceControl: Info Source control is disabled
+[2014.10.15-19.54.16:000][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.10.15-19.54.16:000][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.10.15-19.54.16:044][  0]LogEngine: Initializing Engine...
+[2014.10.15-19.54.16:135][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.15-19.54.16:139][  0]LogInit: FAudioDevice initialized.
+[2014.10.15-19.54.16:152][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.15-19.54.16:167][  0]LogDerivedDataCache: Saved boot cache 0.01s 39MB C:/Users/jon/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.15-19.54.16:170][  0]LogInit: Texture streaming: Enabled
+[2014.10.15-19.54.16:197][  0]LogInit: Transaction tracking system initialized
+[2014.10.15-19.54.16:253][  0]BlueprintLog: New page: Editor Load
+[2014.10.15-19.54.16:276][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2014.10.15-19.54.16:276][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.10.15-19.54.16:949][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-19.54.17:523][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.15-19.54.18:013][  0]LogConsoleResponse:Display: 
+[2014.10.15-19.54.18:138][  0]SourceControl: Info Source control is disabled
+[2014.10.15-19.54.18:138][  0]Cmd: MAP LOAD FILE="../../../../../../git/TigerWoods/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.15-19.54.18:138][  0]LightingResults: New page: Lighting Build
+[2014.10.15-19.54.18:144][  0]MapCheck: New page: Map Check
+[2014.10.15-19.54.18:144][  0]LightingResults: New page: Lighting Build
+[2014.10.15-19.54.18:155][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E293382980
+[2014.10.15-19.54.18:320][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.15-19.54.18:320][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-19.54.18:321][  0]Cmd: MAP CHECKDEP
+[2014.10.15-19.54.18:321][  0]MapCheck: New page: Example_Map - Oct 15, 2014, 11:54:18 AM
+[2014.10.15-19.54.18:373][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.082ms to complete.
+[2014.10.15-19.54.18:373][  0]LogFileHelpers: Loading map 'Example_Map' took 0.235
+[2014.10.15-19.54.18:498][  0]LogCollectionManager: Loaded 0 collections in 0.001167 seconds
+[2014.10.15-19.54.18:512][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.15-19.54.18:576][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.15-19.54.18:587][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.10.15-19.54.18:613][  0]LogLoad: Full Startup: 10.35 seconds (BP compile: 0.04 seconds)
+[2014.10.15-19.54.19:081][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.10.15-19.54.20:634][  5]LogAssetRegistry: Asset discovery search completed in 4.3696 seconds
+[2014.10.15-19.54.27:379][362]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-19.54.27:379][362]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 11:54:27 AM)
+[2014.10.15-19.54.27:407][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027993s)
+[2014.10.15-19.54.27:408][362]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2014.10.15-19.54.27:408][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.028955s)
+[2014.10.15-19.54.27:584][362]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-19.54.27:587][362]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-19.54.27:588][362]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-15.54.27
+[2014.10.15-19.54.27:588][362]LogWorld: Bringing up level for play took: 0.001770
+[2014.10.15-19.54.27:606][362]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.678
+[2014.10.15-19.54.36:455][418]LogTemp: MouseLeave
+[2014.10.15-19.54.38:003][604]LogTemp: MouseLeave
+[2014.10.15-19.54.38:838][704]LogTemp: MouseLeave
+[2014.10.15-19.54.39:612][797]LogTemp: MouseLeave
+[2014.10.15-19.54.39:796][817]LogTemp: MouseLeave
+[2014.10.15-19.54.41:142][968]LogTemp: MouseLeave
+[2014.10.15-19.54.42:876][176]LogTemp: MouseLeave
+[2014.10.15-19.54.46:476][608]LogTemp: MouseLeave
+[2014.10.15-19.54.55:477][683]LogTemp: MouseLeave
+[2014.10.15-19.54.55:871][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E298D14AE0
+[2014.10.15-19.55.04:391][721]Cmd: DELETE
+[2014.10.15-19.55.04:391][721]Cmd: ACTOR DELETE
+[2014.10.15-19.55.04:393][721]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.04:423][721]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2014.10.15-19.55.05:315][819]Cmd: DELETE
+[2014.10.15-19.55.05:315][819]Cmd: ACTOR DELETE
+[2014.10.15-19.55.05:316][819]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.05:341][819]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.06:071][899]Cmd: DELETE
+[2014.10.15-19.55.06:071][899]Cmd: ACTOR DELETE
+[2014.10.15-19.55.06:071][899]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.06:096][899]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.06:755][970]Cmd: DELETE
+[2014.10.15-19.55.06:755][970]Cmd: ACTOR DELETE
+[2014.10.15-19.55.06:755][970]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.06:780][970]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.07:649][ 65]Cmd: DELETE
+[2014.10.15-19.55.07:649][ 65]Cmd: ACTOR DELETE
+[2014.10.15-19.55.07:649][ 65]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.07:675][ 65]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.10.15-19.55.08:676][177]Cmd: DELETE
+[2014.10.15-19.55.08:676][177]Cmd: ACTOR DELETE
+[2014.10.15-19.55.08:677][177]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.08:701][177]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.09:619][279]Cmd: DELETE
+[2014.10.15-19.55.09:619][279]Cmd: ACTOR DELETE
+[2014.10.15-19.55.09:619][279]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.09:644][279]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2014.10.15-19.55.10:181][336]Cmd: DELETE
+[2014.10.15-19.55.10:181][336]Cmd: ACTOR DELETE
+[2014.10.15-19.55.10:182][336]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.10:206][336]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.10:885][410]Cmd: DELETE
+[2014.10.15-19.55.10:886][410]Cmd: ACTOR DELETE
+[2014.10.15-19.55.10:886][410]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.10:910][410]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2014.10.15-19.55.11:580][482]Cmd: DELETE
+[2014.10.15-19.55.11:580][482]Cmd: ACTOR DELETE
+[2014.10.15-19.55.11:581][482]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.11:606][482]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.12:363][565]Cmd: DELETE
+[2014.10.15-19.55.12:363][565]Cmd: ACTOR DELETE
+[2014.10.15-19.55.12:363][565]LogEditorActor: Deleted Actor: Brush
+[2014.10.15-19.55.12:388][565]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.15-19.55.28:213][400]Cmd: DELETE
+[2014.10.15-19.55.28:213][400]Cmd: ACTOR DELETE
+[2014.10.15-19.55.28:214][400]LogEditorActor: Deleted Actor: TextRenderActor
+[2014.10.15-19.55.28:228][400]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2014.10.15-19.55.50:605][ 50]Cmd: POLY TEXSCALE  UU=0.500000 VV=1.000000
+[2014.10.15-19.55.51:795][192]Cmd: TRANSACTION UNDO
+[2014.10.15-19.55.51:795][192]LogEditorTransaction: Undo Set Texscale
+[2014.10.15-19.55.54:365][460]Cmd: POLY TEXSCALE  UU=1.000000 VV=1.000000
+[2014.10.15-19.57.33:901][263]Cmd: TRANSACTION UNDO
+[2014.10.15-19.57.33:901][263]LogEditorTransaction: Undo Move Actors
+[2014.10.15-19.58.48:371][928]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.15-19.58.50:448][165]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.15-19.58.55:715][781]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.15-19.59.35:267][392]Cmd: TRANSACTION UNDO
+[2014.10.15-19.59.35:267][392]LogEditorTransaction: Undo Scale Actors
+[2014.10.15-19.59.42:228][168]Cmd: TRANSACTION UNDO
+[2014.10.15-19.59.42:228][168]LogEditorTransaction: Undo Scale Actors
+[2014.10.15-19.59.42:228][168]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.SkySphereBlueprint.TRASH_SceneComponent_80) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.10.15-19.59.54:938][584]Cmd: DELETE
+[2014.10.15-19.59.54:938][584]Cmd: ACTOR DELETE
+[2014.10.15-19.59.54:939][584]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2014.10.15-19.59.54:939][584]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2014.10.15-19.59.54:957][584]LogEditorActor: Deleted 2 Actors (0.018 secs)
+[2014.10.15-19.59.56:955][817]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-19.59.56:956][817]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 11:59:56 AM)
+[2014.10.15-19.59.56:973][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017840s)
+[2014.10.15-19.59.56:974][817]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2014.10.15-19.59.56:974][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.018816s)
+[2014.10.15-19.59.57:012][817]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-19.59.57:013][817]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-19.59.57:014][817]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-15.59.57
+[2014.10.15-19.59.57:014][817]LogWorld: Bringing up level for play took: 0.000664
+[2014.10.15-19.59.57:016][817]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.087
+[2014.10.15-20.00.07:012][  6]LogTemp: MouseLeave
+[2014.10.15-20.00.10:401][408]LogTemp: MouseLeave
+[2014.10.15-20.00.26:884][384]LogTemp: MouseLeave
+[2014.10.15-20.00.34:618][310]LogTemp: MouseLeave
+[2014.10.15-20.00.35:149][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E288006200
+[2014.10.15-20.00.43:474][333]LogEditorViewport: Clicking Background
+[2014.10.15-20.00.43:982][384]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2014.10.15-20.00.47:658][823]Cmd: DELETE
+[2014.10.15-20.00.47:658][823]Cmd: ACTOR DELETE
+[2014.10.15-20.00.47:659][823]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2014.10.15-20.00.47:675][823]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.10.15-20.02.16:128][257]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.02.16:128][257]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:02:16 PM)
+[2014.10.15-20.02.16:142][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014214s)
+[2014.10.15-20.02.16:143][257]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2014.10.15-20.02.16:143][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.014983s)
+[2014.10.15-20.02.16:182][257]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.02.16:183][257]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.02.16:184][257]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.02.16
+[2014.10.15-20.02.16:184][257]LogWorld: Bringing up level for play took: 0.000717
+[2014.10.15-20.02.16:185][257]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.743
+[2014.10.15-20.02.32:966][262]LogTemp: MouseLeave
+[2014.10.15-20.02.34:039][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E29F3FE520
+[2014.10.15-20.03.59:881][401]LogMaterial: Missing cached shader map for material T_Ground_Grass_Mat, compiling.
+[2014.10.15-20.04.16:520][110]MapCheck: New page: Map Check
+[2014.10.15-20.04.16:542][110]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.15-20.04.16:545][110]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.15-20.04.16:556][110]LightingResults: New page: Lighting Build - Oct 15, 2014, 12:04:16 PM
+[2014.10.15-20.04.21:175][110]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.15-20.04.21:196][110]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.15-20.04.21:196][110]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.15-20.04.21:196][110]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.15-20.04.21:196][110]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.15-20.04.21:196][110]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.15-20.04.21:263][110]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.15-20.04.21:271][110]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MI_Template_BaseGray_03_Metal, compiling.
+[2014.10.15-20.04.21:272][110]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MI_Template_BaseGray_03_Metal, compiling.
+[2014.10.15-20.04.21:273][110]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer MI_Template_BaseGray, compiling.
+[2014.10.15-20.04.21:274][110]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer MI_Template_BaseGray, compiling.
+[2014.10.15-20.04.21:295][111]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.10.15-20.04.21:296][111]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.10.15-20.04.21:298][111]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.10.15-20.04.21:301][111]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.10.15-20.04.27:864][260]Job is a success!
+[2014.10.15-20.04.28:844][261]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.15-20.04.28:998][261]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.10.15-20.04.29:296][261]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.10.15-20.04.29:959][261]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.15-20.04.30:442][261]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.10.15-20.04.30:982][261]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.10.15-20.04.31:137][261]Lightmass on JON81: 7.99 sec total, 368 ms importing, 0 ms setup, 573 ms photons, 7.03 sec processing, 0 ms extra exporting [18/18 mappings]. Threads: 49.0 sec total, 10.4 sec processing.
+[2014.10.15-20.04.31:155][261]LogStaticLightingSystem:Warning: Illumination: 14.2 sec (2.58 sec encoding lightmaps)
+[2014.10.15-20.04.31:155][261]LogStaticLightingSystem: Lightmap texture memory:  6.7 MB (0.0 MB streaming, 6.7 MB non-streaming), 4 textures
+[2014.10.15-20.04.31:155][261]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.15-20.04.31:182][262]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.15-20.04.31:182][262]MapCheck: New page: Example_Map - Oct 15, 2014, 12:04:31 PM
+[2014.10.15-20.04.31:249][262]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.488ms to complete.
+[2014.10.15-20.05.10:891][662]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.15-20.05.28:912][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../git/TigerWoods/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.15-20.05.29:173][723]LogSavePackage: Save=236.895294ms
+[2014.10.15-20.05.29:173][723]LogSavePackage: Moving '../../../../../../git/TigerWoods/Saved/Example_MapD24ECEC94B6CAC848E74BD8CD2D59C44.tmp' to '../../../../../../git/TigerWoods/Content/Maps/Example_Map.umap'
+[2014.10.15-20.05.29:191][723]LogFileHelpers: Saving map 'Example_Map' took 0.340
+[2014.10.15-20.05.30:693][901]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.05.30:693][901]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:05:30 PM)
+[2014.10.15-20.05.30:709][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015588s)
+[2014.10.15-20.05.30:710][901]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2014.10.15-20.05.30:710][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.016891s)
+[2014.10.15-20.05.30:755][901]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.05.30:757][901]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.05.30:757][901]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.05.30
+[2014.10.15-20.05.30:757][901]LogWorld: Bringing up level for play took: 0.000763
+[2014.10.15-20.05.30:759][901]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.17
+[2014.10.15-20.05.38:352][809]LogTemp: MouseLeave
+[2014.10.15-20.05.39:594][958]LogTemp: MouseLeave
+[2014.10.15-20.05.40:620][ 81]LogTemp: MouseLeave
+[2014.10.15-20.05.47:509][907]LogTemp: MouseLeave
+[2014.10.15-20.05.48:761][ 57]LogTemp: MouseLeave
+[2014.10.15-20.05.49:751][174]LogTemp: MouseLeave
+[2014.10.15-20.05.50:470][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E298D167A0
+[2014.10.15-20.06.21:397][848]LogActorFactory: Actor Factory created SM_Rock
+[2014.10.15-20.06.26:383][434]LogActorFactory: Actor Factory created SM_Rock
+[2014.10.15-20.06.35:663][495]Cmd: DELETE
+[2014.10.15-20.06.35:663][495]Cmd: ACTOR DELETE
+[2014.10.15-20.06.35:664][495]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.15-20.06.35:677][495]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2014.10.15-20.06.45:083][612]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.15-20.06.45:221][621]LogActorFactory: Actor Factory created SM_Rock
+[2014.10.15-20.06.49:060][ 75]LogActorFactory: Actor Factory created SM_Rock
+[2014.10.15-20.07.42:053][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2014.10.15-20.07.43:964][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_2)
+[2014.10.15-20.07.45:531][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2014.10.15-20.07.51:522][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_2)
+[2014.10.15-20.08.02:670][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2014.10.15-20.08.11:203][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_3)
+[2014.10.15-20.08.29:007][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2014.10.15-20.08.44:543][329]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.08.44:543][329]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:08:44 PM)
+[2014.10.15-20.08.44:559][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016073s)
+[2014.10.15-20.08.44:560][329]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2014.10.15-20.08.44:560][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.016945s)
+[2014.10.15-20.08.44:604][329]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.08.44:606][329]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.08.44:607][329]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.08.44
+[2014.10.15-20.08.44:607][329]LogWorld: Bringing up level for play took: 0.000900
+[2014.10.15-20.08.44:609][329]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.32
+[2014.10.15-20.08.55:465][620]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E2BE4BB6A0
+[2014.10.15-20.09.03:746][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_3)
+[2014.10.15-20.09.04:433][637]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock_5)
+[2014.10.15-20.09.04:982][695]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock_2)
+[2014.10.15-20.09.05:621][766]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock_4)
+[2014.10.15-20.09.06:316][843]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock)
+[2014.10.15-20.09.29:694][549]Cmd: TRANSACTION UNDO
+[2014.10.15-20.09.29:694][549]LogEditorTransaction: Undo Scale Actors
+[2014.10.15-20.09.37:588][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2014.10.15-20.09.43:885][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_3)
+[2014.10.15-20.10.01:744][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_4)
+[2014.10.15-20.10.07:070][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_4)
+[2014.10.15-20.10.33:742][732]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.10.33:742][732]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:10:33 PM)
+[2014.10.15-20.10.33:760][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018196s)
+[2014.10.15-20.10.33:761][732]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2014.10.15-20.10.33:761][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.018981s)
+[2014.10.15-20.10.33:802][732]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.10.33:804][732]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.10.33:805][732]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.10.33
+[2014.10.15-20.10.33:805][732]LogWorld: Bringing up level for play took: 0.000993
+[2014.10.15-20.10.33:807][732]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.878
+[2014.10.15-20.10.45:600][142]LogTemp: MouseLeave
+[2014.10.15-20.10.47:581][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E28A1F68E0
+[2014.10.15-20.11.04:926][287]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.15-20.11.05:870][376]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.15-20.11.06:895][475]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.15-20.11.09:871][771]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.15-20.11.16:161][337]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.11.39:695][688]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.11.39:695][688]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:11:39 PM)
+[2014.10.15-20.11.39:713][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017636s)
+[2014.10.15-20.11.39:713][688]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2014.10.15-20.11.39:713][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.018392s)
+[2014.10.15-20.11.39:748][688]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.11.39:749][688]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.11.39:751][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.11.39
+[2014.10.15-20.11.39:751][688]LogWorld: Bringing up level for play took: 0.001554
+[2014.10.15-20.11.39:753][688]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.824
+[2014.10.15-20.11.44:115][207]LogTemp: MouseLeave
+[2014.10.15-20.11.44:509][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E2A20DFD80
+[2014.10.15-20.11.45:911][375]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.14.54:367][445]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.14.54:368][445]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:14:54 PM)
+[2014.10.15-20.14.54:385][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017117s)
+[2014.10.15-20.14.54:386][445]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2014.10.15-20.14.54:386][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.018231s)
+[2014.10.15-20.14.54:433][445]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.14.54:435][445]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.14.54:436][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.14.54
+[2014.10.15-20.14.54:436][445]LogWorld: Bringing up level for play took: 0.001076
+[2014.10.15-20.14.54:438][445]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.491
+[2014.10.15-20.15.00:415][159]LogTemp: MouseLeave
+[2014.10.15-20.15.00:862][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E2BC5B49A0
+[2014.10.15-20.15.32:137][801]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.16.24:868][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../git/TigerWoods/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.10.15-20.16.24:945][ 27]LogSavePackage: Save=52.769279ms
+[2014.10.15-20.16.24:945][ 27]LogSavePackage: Moving '../../../../../../git/TigerWoods/Saved/Example_Map_Auto1B3B9552748DF2D90B67506AA34FDD0D7.tmp' to '../../../../../../git/TigerWoods/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2014.10.15-20.16.24:958][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.114
+[2014.10.15-20.16.24:958][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2014.10.15-20.17.20:680][195]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.17.36:480][483]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.17.58:492][967]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.15-20.17.58:492][967]PIE: New page: PIE session: Example_Map (Oct 15, 2014, 12:17:58 PM)
+[2014.10.15-20.17.58:509][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016798s)
+[2014.10.15-20.17.58:510][967]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2014.10.15-20.17.58:510][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.018194s)
+[2014.10.15-20.17.58:552][967]LogWorld: Game class is 'MyGame_C'
+[2014.10.15-20.17.58:554][967]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.15-20.17.58:555][967]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.10.15-16.17.58
+[2014.10.15-20.17.58:555][967]LogWorld: Bringing up level for play took: 0.000915
+[2014.10.15-20.17.58:557][967]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.372
+[2014.10.15-20.18.00:149][152]LogTemp: MouseLeave
+[2014.10.15-20.18.18:776][362]LogSelection:Warning: PIE object was selected: "MyCharacter_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.MyCharacter_C_8"
+[2014.10.15-20.18.38:882][627]LogTemp: MouseLeave
+[2014.10.15-20.18.56:401][647]LogTemp: MouseLeave
+[2014.10.15-20.18.58:739][912]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:149][960]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:192][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:219][968]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:724][ 28]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:741][ 30]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:742][ 30]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:760][ 32]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:796][ 36]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:839][ 41]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.18.59:840][ 41]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:116][ 73]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:134][ 75]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:134][ 75]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:144][ 76]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:163][ 78]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:189][ 81]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:190][ 81]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.00:848][156]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.15-20.19.06:801][844]LogTemp: MouseLeave
+[2014.10.15-20.19.24:752][912]LogTemp: MouseLeave
+[2014.10.15-20.19.25:412][988]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_7"
+[2014.10.15-20.19.26:346][ 87]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_10"
+[2014.10.15-20.19.27:044][161]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_20"
+[2014.10.15-20.19.28:372][309]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_12"
+[2014.10.15-20.19.28:530][324]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_13"
+[2014.10.15-20.19.28:688][339]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_14"
+[2014.10.15-20.19.28:851][355]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_25"
+[2014.10.15-20.19.29:017][371]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_16"
+[2014.10.15-20.19.29:184][387]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_17"
+[2014.10.15-20.19.29:354][403]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_18"
+[2014.10.15-20.19.29:529][420]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_19"
+[2014.10.15-20.19.29:692][436]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_2"
+[2014.10.15-20.19.29:849][451]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_31"
+[2014.10.15-20.19.30:018][467]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_21"
+[2014.10.15-20.19.30:190][484]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_22"
+[2014.10.15-20.19.30:346][499]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_3"
+[2014.10.15-20.19.30:760][544]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_11"
+[2014.10.15-20.19.31:089][579]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_3"
+[2014.10.15-20.19.31:458][619]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_11"
+[2014.10.15-20.19.31:600][632]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_5"
+[2014.10.15-20.19.31:758][644]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_6"
+[2014.10.15-20.19.31:914][659]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_15"
+[2014.10.15-20.19.32:050][671]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_8"
+[2014.10.15-20.19.32:208][686]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_9"
+[2014.10.15-20.19.33:008][777]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_8"
+[2014.10.15-20.19.33:512][833]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_15"
+[2014.10.15-20.19.33:527][833]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_6"
+[2014.10.15-20.19.33:542][833]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_5"
+[2014.10.15-20.19.33:557][833]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_11"
+[2014.10.15-20.19.33:598][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_3"
+[2014.10.15-20.19.33:614][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_22"
+[2014.10.15-20.19.33:628][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_21"
+[2014.10.15-20.19.33:642][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_31"
+[2014.10.15-20.19.33:656][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_2"
+[2014.10.15-20.19.33:670][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_19"
+[2014.10.15-20.19.33:684][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_18"
+[2014.10.15-20.19.33:698][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_17"
+[2014.10.15-20.19.33:712][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_16"
+[2014.10.15-20.19.33:727][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_25"
+[2014.10.15-20.19.33:741][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_14"
+[2014.10.15-20.19.33:756][834]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_13"
+[2014.10.15-20.19.33:817][835]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_12"
+[2014.10.15-20.19.33:833][835]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_20"
+[2014.10.15-20.19.33:848][835]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_10"
+[2014.10.15-20.19.33:863][835]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_7"
+[2014.10.15-20.19.33:878][835]LogSelection:Warning: PIE object was selected: "PlayerState /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerState_16"
+[2014.10.15-20.19.33:881][835]LogSelection:Warning: PIE object was selected: "PlayerController /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerController_8"
+[2014.10.15-20.19.33:916][836]LogSelection:Warning: PIE object was selected: "PlayerCameraManager /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerCameraManager_8"
+[2014.10.15-20.19.33:925][836]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerStart"
+[2014.10.15-20.19.33:950][837]LogSelection:Warning: PIE object was selected: "ParticleEventManager /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.ParticleEventManager_10"
+[2014.10.15-20.19.33:953][837]LogSelection:Warning: PIE object was selected: "MyGame_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.MyGame_C_8"
+[2014.10.15-20.19.33:984][838]LogSelection:Warning: PIE object was selected: "MyCharacter_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.MyCharacter_C_8"
+[2014.10.15-20.19.34:021][838]LogSelection:Warning: PIE object was selected: "HUD /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.HUD_8"
+[2014.10.15-20.19.34:052][838]LogSelection:Warning: PIE object was selected: "PostProcessVolume /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GLOBALPostProcess"
+[2014.10.15-20.19.34:064][838]LogSelection:Warning: PIE object was selected: "GameState /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameState_8"
+[2014.10.15-20.19.34:088][839]LogSelection:Warning: PIE object was selected: "GameSession /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameSession_8"
+[2014.10.15-20.19.34:092][839]LogSelection:Warning: PIE object was selected: "GameNetworkManager /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameNetworkManager_8"
+[2014.10.15-20.19.34:110][840]LogSelection:Warning: PIE object was selected: "CameraActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.CameraActor_8"
+[2014.10.15-20.19.34:125][840]LogSelection:Warning: PIE object was selected: "AtmosphericFog /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.AtmosphericFog_1"
+[2014.10.15-20.19.35:877][ 45]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_9"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_9"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_7"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_10"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_20"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_12"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_13"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_14"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_25"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_16"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_17"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_18"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_19"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_2"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_31"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_21"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_22"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_3"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_11"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_5"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_6"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_15"
+[2014.10.15-20.19.38:847][377]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_8"
+[2014.10.15-20.20.11:010][975]LogTemp: MouseLeave
+[2014.10.15-20.20.12:133][100]LogTemp: MouseLeave
+[2014.10.15-20.20.17:084][649]LogTemp: MouseLeave
+[2014.10.15-20.20.20:515][ 41]LogTemp: MouseLeave
+[2014.10.15-20.20.21:546][159]LogTemp: MouseLeave
+[2014.10.15-20.20.26:461][699]LogTemp: MouseLeave
+[2014.10.15-20.20.26:829][734]LogReferenceChain: Searching referencers for Example_Map. This may take several minutes.
+[2014.10.15-20.20.26:888][734]LogReferenceChain: Generating reference graph ...
+[2014.10.15-20.20.26:890][734]LogReferenceChain: Level 0 has 10 nodes ...
+[2014.10.15-20.20.26:893][734]LogReferenceChain: Level 1 added 74 nodes ...
+[2014.10.15-20.20.26:896][734]LogReferenceChain: Level 2 added 205 nodes ...
+[2014.10.15-20.20.26:899][734]LogReferenceChain: Level 3 added 129 nodes ...
+[2014.10.15-20.20.26:902][734]LogReferenceChain: Level 4 added 16 nodes ...
+[2014.10.15-20.20.26:905][734]LogReferenceChain: Level 5 added 0 nodes ...
+[2014.10.15-20.20.26:905][734]LogReferenceChain: Generating reference chains ...
+[2014.10.15-20.20.26:905][734]LogReferenceChain:   
+[2014.10.15-20.20.26:905][734]LogReferenceChain: External Referencers:
+[2014.10.15-20.20.26:905][734]LogReferenceChain:   
+[2014.10.15-20.20.26:905][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     AtmosphericFog /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.AtmosphericFog_1->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     (PendingKill) CameraActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.CameraActor_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     GameNetworkManager /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameNetworkManager_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     GameSession /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameSession_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     GameState /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameState_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     PostProcessVolume /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GLOBALPostProcess->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     (PendingKill) HUD /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.HUD_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     MyGame_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.MyGame_C_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     ParticleEventManager /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.ParticleEventManager_10->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     PlayerStart /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerStart->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     (PendingKill) PlayerCameraManager /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerCameraManager_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     (PendingKill) PlayerController /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerController_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     (PendingKill) PlayerState /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.PlayerState_16->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_9->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_8->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:988][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   
+[2014.10.15-20.20.26:988][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:988][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:988][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_15->Outer
+[2014.10.15-20.20.26:988][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_6->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_5->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_11->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_3->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_22->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_21->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_31->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_2->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_19->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_18->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_17->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_16->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_25->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_14->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_13->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_12->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:989][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_20->Outer
+[2014.10.15-20.20.26:989][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:989][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:989][734]LogReferenceChain:   
+[2014.10.15-20.20.26:989][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:990][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:990][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_10->Outer
+[2014.10.15-20.20.26:990][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:990][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:990][734]LogReferenceChain:   
+[2014.10.15-20.20.26:990][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:990][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:990][734]LogReferenceChain:     StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.SM_Rock_7->Outer
+[2014.10.15-20.20.26:990][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:990][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.26:990][734]LogReferenceChain:   
+[2014.10.15-20.20.26:990][734]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2014.10.15-20.20.26:990][734]LogReferenceChain:   TransBuffer /Engine/Transient.TransBuffer_0->UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56c76140) + 0 bytes [UnknownFile:0]
+[2014.10.15-20.20.26:990][734]LogReferenceChain:     MyCharacter_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.MyCharacter_C_8->Outer
+[2014.10.15-20.20.26:990][734]LogReferenceChain:       Level /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel->OwningWorld
+[2014.10.15-20.20.26:990][734]LogReferenceChain:         (target) World /Game/Maps/UEDPIE_0_Example_Map.Example_Map
+[2014.10.15-20.20.27:052][734]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.10.15-20.20.27:052][734]LogCrashTracker: 
+
+
+[2014.10.15-20.20.27:286][734]LogCrashTracker: 
+
+
+[2014.10.15-20.20.27:286][734]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Developer\MessageLog\Private\Model\MessageLogListingModel.cpp] [Line: 70] 
+Critical Error GameplayDebuggingComponent /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.GameplayDebuggingReplicator_Global.GameplayDebuggingComponent_17 Object from PIE level still referenced. Shortest path from root:    (Object is not currently rooted)
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffa7fde606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa5b0271b4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa5aeb978f) + 0 bytes [UnknownFile:0]
+UE4Editor-MessageLog.dll!UnknownFunction (0x00007ffa4fecae15) + 0 bytes [UnknownFile:0]
+UE4Editor-MessageLog.dll!UnknownFunction (0x00007ffa4fecaf0f) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa5ae271d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56e0aa86) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa56bdf964) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa5703f966) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff7af24a8f4) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2129]
+UE4Editor.exe!GuardedMain() (0x00007ff7af23f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff7af23fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff7af24bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff7af24cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffa823716ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffa827b4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffa827b4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.10.15-20.20.27:399][734]LogExit: Executing StaticShutdownAfterError
+[2014.10.15-20.20.27:405][734]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.15-20.20.27:405][734]Log file closed, 10/15/14 16:20:27
